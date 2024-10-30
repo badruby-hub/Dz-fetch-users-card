@@ -8,7 +8,6 @@ export default function User({ user }) {
     company: {
       name: cname,
       catchPhrase,
-      bs
     }
   } = user;
 

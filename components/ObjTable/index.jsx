@@ -6,7 +6,7 @@ import { useMemo } from 'react';
 export function ObjTable({ data, config }) {
   console.debug('ObjTable render');
   const
-    [sortColumn, setSortColumn] = useState(null),
+    [sortColumn] = useState(null),
     [search, setSearch] = useState(''),
     sorteredAndFilteredData = useMemo(() => {
       return data
