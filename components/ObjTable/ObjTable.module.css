@@ -1,17 +1,10 @@
-.objtable{
+.objtable {
     border-collapse: collapse;
-    background-color: rgba(23, 193, 88, 0.421); 
-
-    & th{
-        border: 1px solid gray;
-    } 
-
-    & td{
-        border: 1px solid gray;
-        padding: .3em;
+    thead {
+      text-align: center;
     }
-    
-    & tbody > tr:hover{
-     background-color: aqua;
+  
+    & td {
+      border: 1px solid lightblue;
     }
-}
+  }
